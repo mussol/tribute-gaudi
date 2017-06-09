@@ -1,3 +1,75 @@
 body {
-  margin-top: 20px;
+	padding-top: 20px;
 }
+
+.container {
+	background-color: rgb(169,169,169);
+	padding-bottom: 20px;
+}
+
+
+h1 {
+	font-size: 5em;
+}
+ 
+#tagline {
+	color: whitesmoke;
+	margin-bottom: 25px;
+}
+
+.well {
+	text-align: center;
+}
+
+.well p {
+	margin-top: 10px;
+}
+
+.portrait {
+	background-image: url("http://www.publico.es/uploads/2016/06/10/original_575a9caa1b1e0.jpg");
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.image1 {
+	background-image: url(https://www.lapedrera.com/sites/default/files/Pedrera_visor2_22.jpg);
+}
+
+.image2 {
+	background-image: url(http://www.sagradafamilia.org/wp-content/gallery/sagrada-familia/INTERIOR__SAGRADA-FAMILIA_SESSIO-PROTOCOL-004.jpg);
+}
+
+.image3 {
+	background-image: url(https://www.casabatllo.es/wp-content/uploads/2013/10/xparc-guell.jpg.pagespeed.ic.CHUuu9IVlX.jpg);
+}
+
+.image4 {
+	background-image: url(https://www.barcelona-tourist-guide.com/images/int/attractions/casa-batllo/L/CasaBatllo-4.jpg);
+}
+
+.image {
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-position: center center;
+}
+
+ .info {
+ 	text-align: right;
+ 	font-style: italic;
+ 	margin-bottom: 40px;
+ }
+
+ .info span {
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	color: #6e237b;
+ }
+
+ .fa-external-link:before,
+ .fa-quote-left:before,
+ .fa-exclamation-circle:before {
+ 	padding: 0 5px;
+ }
